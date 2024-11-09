@@ -17,3 +17,26 @@
 - It was such a great experience going through, to set up ubuntu  and ROS2 with the help of this udemy course: https://www.udemy.com/course/ros2-for-beginners/
 
 - To verify my certificate on completion of this course, you can visit: https://www.udemy.com/certificate/UC-33708a71-89d6-4360-9fcc-caeadc32dd4a/
+
+## Execution of the project
+- To run this project for yourself, create a ROS2 workspace,
+- Compile it with colcon build, and go to the src directory.
+- Then place these folders on the src directory, and again build the workspace.
+- Now in the terminal, run
+```bash
+ros2 launch turtle_catchthem_all_bringup turtle_catchthem_all.launch.py
+```
+
+## Project structure
+```
+├── ros2_ws/
+│    ├── include/
+│    ├── build/
+│    ├── log/
+│    ├── src/
+│        ├── my_interfaces/
+│        ├── my_py_pkg/
+│        ├── my_robot_bringup/
+│        ├── turtle_catchthem_all/
+│        └── turtle_catchthem_all_bringup/
+```
